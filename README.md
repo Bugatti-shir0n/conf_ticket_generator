@@ -1,8 +1,26 @@
-# React + Vite
+## Conference Ticket Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application for generating conference tickets. Users can enter their name, email, and upload an avatar. The application validates user inputs and displays a generated ticket upon successful submission.
 
-Currently, two official plugins are available:
+**Features:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* User-friendly form with input fields for name, email, and avatar upload.
+* Form validation for required fields and email format.
+* Avatar upload and display.
+* State persistence using local storage.
+* Responsive design for various screen sizes.
+* Basic accessibility features.
+
+**To run the project:**
+
+1. Clone this repository.
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+
+**To build for production:**
+
+1. Run `npm run build`
+
+**Deployment:**
+
+- Deploy the contents of the `build` folder to your preferred hosting platform (e.g., Vercel, Netlify).
